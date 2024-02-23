@@ -1,0 +1,68 @@
+*{
+    background-color: beige;
+}
+
+.nav{
+    text-decoration: black;
+    text-align: center;
+    color: black;
+}
+
+ul{
+    display: inline;
+
+}
+.nav li{
+    display: inline;
+
+}
+
+
+
+
+.nav a{
+    display: inline-block;
+     padding: 5em;
+     color: black;
+       text-decoration: none;
+}
+
+
+.nav a :hover{
+    background-color: rgb(255,255,255,.3);
+}
+
+
+
+
+
+img{
+padding-block: 20px;
+height: 200px;
+width: 180px;
+object-fit: cover;
+margin: 5px;
+}
+
+
+.contacts{
+padding: 5px;
+text-align: center;
+
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    margin: 2px;
+}
+
+
+
+.form-group{
+ display: flex;
+ color: black;
+    
+}

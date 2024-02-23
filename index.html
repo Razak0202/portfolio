@@ -4,28 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./style.css">
   </head>
 
 <body>
-    <!DOCTYPE html>
-    <html>
-    <head>
-      <title>Portfolio</title>
-      <link rel="stylesheet" type="text/css" href="styles.css">
-    </head>
-    <body>
-      <navbar>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </navbar>
+   <header>
+     <nav class="nav main-nav" >
+      <ul>
+
+
+        <li><a href="#about">About</a></li>
+
+        <li><a href="#projects">Projects</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+        
+
+
+      </ul>
+    </nav>
+    
+   </header>
     
       <section id="about">
+
         <h1>About Me</h1>
+
         <p> Hello, My name is Abdul Razak Hamza,Am 20 years.I just completed senoir high school,but now into photography and also into web development</p>
+
       </section>
 
 
@@ -33,56 +39,54 @@
 
 
     <div class container>
+
       <section id="projects">
+
         <h1>Projects</h1>
+
         <div class="image">
-        <img src="/imgs/img1.jpg" alt="style">
+
+        <img src="imgs/img1.jpg" alt="style">
         <img src="imgs/img2.webp" alt="landscape">
         <img src="imgs/img3.avif" alt="canon">
-        <img src="img5.jpg" alt="landscape">
-        <img src="img3.jpg" alt="new">
+        <img src="imgs/img3.jpg" alt="landscape">
+        <img src="imgs/img5.jpg" alt="new">
 
 
         
         <p>Growing up in Ghana and getting to know about photography is fun. getting to know about landscapes and nature.Nature has always been a source of inspiration for me. In this section, you will find a collection of my landscape and nature photographs</p>
       
-<h4>Contact</h4>
-<div class="container">
-    <div class="row">
-        <form>
-          <div class="form-row">
-             <div class="col">
-                <div class="col-6" style="background-color: black;">
-                <input type="text" class="form-control" placeholder="Full name">
+<section class="contacts ">
+    <h4>Contact</h4>
         
-              </div>
-              <div class="col">
-                <input type="text" class="form-control" placeholder="email">
-              </div>
-            </div>
-          </form>
-                    
-                    
+<form>
+   <div class="form-group">
+      <input class="form-group" type="text" id="fname" name="fname" placeholder="First Name">
+     </div>
+
+     <div class="form-group">
+          <input class="form-group" type="text" id="lname" name="lname" placeholder="Last Name">
+      </div>
 
 
 
 
+     <div class="form-group">
+         <input class="form-group" type="email" id="email" name="email" placeholder="Email">
+     </div>
 
-               
+      <div class="form-group">
+           <input class="form-group" type="subject" id="subject" name="subject" placeholder="Subject">
+      </div>
 
 
-      </section>
-    </body>
-    </html>
-    <header>
-    
-    </header>
+     <div class="form-group">
+         <textarea class="form-group" type="message" id="message" placeholder="Message">
+         </textarea>
+     </div>
 
-    
-
-    
-    <footer>
-
-</footer>
+         </form>
+ 
+</section>
 </body>
 </html>
